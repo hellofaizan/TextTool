@@ -40,6 +40,7 @@ export default function Typeform(props) {
             <i className="bi bi-x-lg float-end copyS" onClick={clearText}></i>
             <i className="bi bi-clipboard float-end copyS" onClick={copyCB}></i>
             <i className="bi bi-megaphone float-end copyS" onClick={speakText}></i>
+            <a href='https://github.com/hellofaizan/TextTool' aria-current="page"target="_blank" rel="noopener noreferrer" ><i className="bi bi-github float-end copyS"></i></a>
             <textarea className="form-control" id="myBox" value={text} onChange={handleTextArea} placeholder="Enter Your Text to Capitalize It." rows="8"></textarea>
         </div>
         {show?<div className="alert alert-success alert-dismissible fade show" role="alert"><strong>Congo!</strong> Copied to Clipboard</div>:null}
