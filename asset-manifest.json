@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/TextTool/static/css/main.8e3b1df5.css",
-    "main.js": "/TextTool/static/js/main.2d0fccc2.js",
+    "main.js": "/TextTool/static/js/main.fb2d6a91.js",
     "static/js/787.cb80bf76.chunk.js": "/TextTool/static/js/787.cb80bf76.chunk.js",
     "static/media/Faizan.png": "/TextTool/static/media/Faizan.dd1187b242bbd4eb13d7.png",
     "static/media/bootstrap-icons.woff?": "/TextTool/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/TextTool/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/TextTool/index.html",
     "main.8e3b1df5.css.map": "/TextTool/static/css/main.8e3b1df5.css.map",
-    "main.2d0fccc2.js.map": "/TextTool/static/js/main.2d0fccc2.js.map",
+    "main.fb2d6a91.js.map": "/TextTool/static/js/main.fb2d6a91.js.map",
     "787.cb80bf76.chunk.js.map": "/TextTool/static/js/787.cb80bf76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e3b1df5.css",
-    "static/js/main.2d0fccc2.js"
+    "static/js/main.fb2d6a91.js"
   ]
 }
