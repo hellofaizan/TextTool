@@ -18,8 +18,8 @@ If you are new to [ReactJS](https://reactjs.org/docs/create-a-new-react-app.html
 This site is in default `#0d1117` dark theme
 
 ## Socials
-<a href="https://discord.com/users/890232380265222215">
-     <img src="https://lanyard.cnrad.dev/api/890232380265222215?idleMessage=Just%20Chillin..." width="400" height="200" />
+<a href="https://discord.gg/invite/EHthxHRUmr">
+     <img src="https://lanyard.cnrad.dev/api/890232380265222215?idleMessage=Just%20Chillin..." />
 </a>
 <a href="https://discord.gg/EHthxHRUmr">
      <img src="https://invidget.switchblade.xyz/EHthxHRUmr" width="400" height="200" />
