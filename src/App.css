@@ -39,10 +39,22 @@ i:hover {
   margin-left: 5px;
   margin-right: 5px;
 }
+.copyS:hover {
+  color: #dededf;
+  text-decoration: none;
+}
 .alert {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .previewt {
   max-width: 100%;
+}
+.gt {
+  text-decoration: none;
+  color: #899097;
+}
+.gt:hover {
+  color: #dededf;
+  text-decoration: none;
 }

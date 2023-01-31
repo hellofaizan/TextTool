@@ -39,16 +39,19 @@ export default function Navbar(props) {
       </ul>
       <ul className='navbar-nav  mb-2 mb-lg-0'>
       <li className="nav-item">
-          <a className="nav-link active" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://instagram.com/hellofaizan"><i class="bi bi-instagram"></i></a>
+          <a className="nav-link active socialI" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://instagram.com/hellofaizan"><i class="bi bi-instagram"></i></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://github.com/hellofaizan"><i class="bi bi-github"></i></a>
+          <a className="nav-link active socialI" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://github.com/hellofaizan"><i class="bi bi-github"></i></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://www.youtube.com/@HelloFaizan"><i class="bi bi-youtube"></i></a>
+          <a className="nav-link active socialI" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://www.youtube.com/@HelloFaizan"><i class="bi bi-youtube"></i></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://discord.com/users/890232380265222215"><i class="bi bi-discord"></i></a>
+          <a className="nav-link active socialI" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://discord.com/users/890232380265222215"><i class="bi bi-discord"></i></a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active socialI" target="_blank" rel="noopener noreferrer" aria-current="page" href="https://twitter.com/HelloFaizandev"><i class="bi bi-twitter"></i></a>
         </li>
       </ul>
     </div>

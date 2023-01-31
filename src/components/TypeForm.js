@@ -37,16 +37,16 @@ export default function Typeform(props) {
     <div className='container'>
         <h1 className='heading'>{props.heading}</h1>
         <div className="mb-3">
-            <i className="bi bi-x-lg float-end copyS" onClick={clearText}></i>
-            <i className="bi bi-clipboard float-end copyS" onClick={copyCB}></i>
-            <i className="bi bi-megaphone float-end copyS" onClick={speakText}></i>
-            <a href='https://github.com/hellofaizan/TextTool' aria-current="page"target="_blank" rel="noopener noreferrer" ><i className="bi bi-github float-end copyS"></i></a>
+            <i className="bi bi-x-lg float-end copyS" title='Clear text' onClick={clearText}></i>
+            <i className="bi bi-clipboard float-end copyS" title='Copy to clipboard' onClick={copyCB}></i>
+            <i className="bi bi-megaphone float-end copyS" title='Listen to text' onClick={speakText}></i>
+            <a href='https://github.com/hellofaizan/TextTool' title='Github Open Source Library' className='float-end gt' aria-current="page"target="_blank" rel="noopener noreferrer" >Open Source on<i className="bi bi-github copyS"></i></a>
             <textarea className="form-control" id="myBox" value={text} onChange={handleTextArea} placeholder="Enter Your Text to Capitalize It." rows="8"></textarea>
         </div>
         {show?<div className="alert alert-success alert-dismissible fade show" role="alert"><strong>Congo!</strong> Copied to Clipboard</div>:null}
     </div>
         <button className="btn btn-primary float-end" onClick={buttonClick}>UpperCase</button>
-        <button className="btn btn-primary float-end" title='Upper case 1st letter of each word' onClick={titleCase}>Title Case</button>
+        <button className="btn btn-primary float-end" title='Upper case 1st letter of each word' onClick={titleCase}>TitleCase</button>
     <div className="container beloww">
         <h1 className='textMorrr '>Text Summary</h1>
         <h6><b>{text.split(" ").length - 1}</b> Words, <b>{text.length}</b> Characters</h6>
