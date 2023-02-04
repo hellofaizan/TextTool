@@ -17,7 +17,7 @@ export default function Navbar(props) {
           <a className="nav-link active" aria-current="page" href="/">Indexes</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Links</a>
+          <a className="nav-link active" aria-current="page" href="https://msop.vercel.app">Musicaly</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page"target="_blank" rel="noopener noreferrer" href="https://discord.gg/invite/EHthxHRUmr">Discord Server</a>
